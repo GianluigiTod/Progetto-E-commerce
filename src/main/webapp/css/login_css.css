@@ -1,0 +1,62 @@
+body {
+    background-color: #f0f0f0; /* Sfondo grigio chiaro */
+    font-family: Arial, sans-serif;
+}
+
+.header h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333; /* Colore del testo più scuro per un contrasto migliore */
+    text-shadow: 1px 1px 2px #ccc; /* Ombra per dare profondità al testo */
+    margin-left: 0;
+}
+
+.card {
+    border: none; /* Rimuovi il bordo */
+    border-radius: 10px; /* Aggiungi bordi arrotondati */
+}
+
+.card-header {
+    background-color: #3f51b5; /* Colore del background tipico del Material Design */
+    color: white; /* Testo bianco */
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #3f51b5; /* Colore del pulsante */
+    border: none; /* Rimuovi il bordo */
+}
+
+.small-text {
+    font-size: 0.8em; /* Dimensione del font più piccola */
+    color: #666; /* Colore del testo */
+    margin-top: 20px; /* Spazio sopra il testo */
+}
+
+/* Stili per il link all'interno del testo */
+.small-text a {
+    color: #007bff; /* Colore del link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+.small-text a:hover {
+    text-decoration: underline; /* Aggiunge sottolineatura al passaggio del mouse */
+}
+
+.welcome-message {
+    background: linear-gradient(to right, #007bff, #0056b3); /* Sfondo a gradiente per impatto visivo */
+    color: white; /* Colore del testo bianco */
+    padding: 40px; /* Spaziatura interna generosa */
+    border-radius: 15px; /* Bordo arrotondato per il riquadro */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombra per dare profondità */
+    margin-bottom: 30px; /* Spazio sotto il messaggio */
+    text-align: center; /* Allineamento del testo al centro */
+}
+
+.welcome-message h1 {
+    font-size: 3em; /* Dimensione del font grande per il testo principale */
+    font-weight: bold; /* Grassetto per enfatizzare */
+    margin: 0; /* Rimuove margini predefiniti */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Ombra del testo per migliorare la leggibilità */
+    line-height: 1.2; /* Spazio tra righe per migliorare la leggibilità */
+}
